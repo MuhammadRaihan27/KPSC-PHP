@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@import url("./Navbar.css");
+@import url("./Footer.css");
+@import url("./Contact.css");
+@import url("./__Utilities.css");
+@import url("./__Global.css");
+@import url("./Home/Home.css");
+@import url("./About/About.css");
+@import url("./Service/Service.css");
+@import url("./Certifitaces/Certificates.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  /* height: 1000rem; */
+}

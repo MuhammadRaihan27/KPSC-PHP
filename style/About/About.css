@@ -1,0 +1,62 @@
+#about-us {
+  margin-top: 6rem;
+}
+
+#about-us .mission {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 1.2rem;
+}
+
+#about-us .mission-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px dashed var(--color2);
+  padding-bottom: 0.8rem;
+  gap: 1rem;
+}
+#about-us .mission-item .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+#about-us .mission-item .circle1 {
+  background: url("../../assets/img/About/Group\ 44.svg") no-repeat center;
+  background-size: cover;
+}
+
+#about-us .mission-item .circle2 {
+  background: url("../../assets/img/About/Group\ 45.svg") no-repeat center;
+  background-size: cover;
+}
+
+#about-us .mission-item .circle3 {
+  background: url("../../assets/img/About/Group\ 46.svg") no-repeat center;
+  background-size: cover;
+}
+
+#about-us .col-lg-7 {
+  padding-left: 2rem;
+}
+
+#about-us .mission-item P {
+  font-weight: 600;
+  color: var(--color1);
+  flex: 1;
+}
+
+@media (max-width: 991px) {
+  #about-us .col-lg-7 {
+    padding-left: 1rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 580px) {
+  #about-us .mission-item P {
+  }
+}

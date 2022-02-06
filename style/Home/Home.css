@@ -1,0 +1,909 @@
+.carousel-header .swiper {
+  width: 100%;
+  height: 100%;
+  background-color: khaki;
+}
+
+.carousel-header .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.carousel-header .swiper-slide {
+  height: 35rem;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+.carousel-header .swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.carousel-header .slide1 {
+  background: url("../../assets/img/Home/Carousel/Carousel2.jpg") no-repeat
+    center;
+  background-size: cover;
+}
+
+.carousel-header .slide2 {
+  background: url("../../assets/img/Home/Carousel/Carousel1.jpg") no-repeat
+    center;
+  background-size: cover;
+}
+
+.carousel-header .slide3 {
+  background: url("../../assets/img/Home/Carousel/Carousel3.jpg") no-repeat
+    center;
+  background-size: cover;
+}
+
+.carousel-header .content {
+  width: 38rem;
+  margin-bottom: 8rem;
+  /* margin-left: 3rem; */
+  transition: 0.2s ease;
+  z-index: 999;
+}
+
+.carousel-header .content .title h1 {
+  font-weight: 700;
+}
+
+.carousel-header .content .deks p {
+  color: var(--colorWhite);
+  font-weight: 600;
+}
+
+.tooltop {
+  position: absolute;
+  width: 22rem;
+  top: 0;
+  left: 0;
+}
+
+/* Section 1 */
+
+#sec-1 {
+  margin-top: 6rem;
+}
+
+#sec-1 .img-area {
+  position: relative;
+}
+
+#sec-1 .img-area img {
+  width: 80%;
+}
+
+#sec-1 .img-area .card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 5rem;
+  bottom: -1.3rem;
+  padding: 1rem;
+  width: 11rem;
+  height: 12rem;
+  border-radius: 1rem;
+  border: 5px solid var(--colorWhite);
+  background-color: var(--color1);
+  color: var(--colorWhite);
+}
+
+#sec-1 .img-area .card h3 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+#sec-1 .img-area .card h4 {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#sec-1 .excess-group {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+
+#sec-1 .excess-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#sec-1 .excess-item img {
+  width: 2.6rem;
+  margin-right: 0.4rem;
+}
+
+#sec-1 .excess-item {
+  font-weight: 500;
+  color: var(--color1);
+}
+
+/* Section 1 */
+
+/* Section 2  */
+
+/* #sec-2 {
+  position: relative;
+  background-color: var(--color1);
+  height: 35rem;
+  margin-top: 8rem;
+}
+
+#sec-2 .title {
+  margin-top: 4rem;
+}
+
+#sec-2 .title h2,
+#sec-2 .deks p {
+  color: var(--colorWhite);
+}
+
+#sec-2 .img-area img {
+  position: absolute;
+  right: -0rem;
+  top: 0;
+}
+
+#sec-2 .img-area img {
+  width: 27rem;
+  height: 100%;
+}
+
+#sec-2 .excess-group {
+  display: flex;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+
+#sec-2 .excess-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: var(--colorWhite);
+  background: linear-gradient(#ffb800, #ff9900);
+  overflow: hidden;
+  gap: 1rem;
+}
+
+#sec-2 .excess-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--color2);
+  transition: 0.3s ease-in-out;
+}
+
+#sec-2 .excess-item:hover::before {
+  width: 100%;
+}
+
+#sec-2 .excess-item img,
+#sec-2 .excess-item p {
+  z-index: 99999;
+}
+
+#sec-2 .excess-item img {
+  width: 3.5rem;
+  transition: 0.2s ease-out;
+}
+
+#sec-2 .excess-item p {
+  font-weight: 500;
+} */
+
+/* Section 2 */
+
+/* Section 3 */
+
+#sec-3 {
+  margin-top: 6rem;
+}
+
+#sec-3 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sec-3 .row-service-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec-3 .row-service-group:nth-child(2) {
+  margin-top: 4rem;
+}
+
+#sec-3 .service-group {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+#sec-3 .service-item {
+  width: 20rem;
+}
+
+#sec-3 .service-item .title {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+#sec-3 .service-item .title img {
+  width: 3rem;
+}
+
+#sec-3 .service-item .title span {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--color1);
+  white-space: nowrap;
+}
+
+/* Section 3 */
+
+/* Section 4 */
+
+#sec-4 {
+  margin-top: 5rem;
+}
+
+#sec-4 .img-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec-4 .img-area img {
+  width: 80%;
+}
+
+#sec-4 .we-works-area {
+  padding-bottom: 3rem;
+}
+
+#sec-4 .we-works {
+  display: flex;
+  align-items: center;
+}
+
+#sec-4 .bullet-group {
+  height: max-content;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  border-right: 2px solid var(--color3);
+  padding-right: 20px;
+}
+
+#sec-4 .bullet-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background-color: var(--color2);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--colorWhite);
+}
+
+#sec-4 .bullet-item span {
+  transition: 0.3s ease-in;
+  z-index: 99;
+}
+
+#sec-4 .bullet-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--color1);
+  transition: 0.3s ease-out;
+}
+
+#sec-4 .bullet-item:hover::before {
+  width: 100%;
+}
+
+#sec-4 .bullet-item.active::before {
+  width: 100%;
+}
+
+#sec-4 .bullet-item.active span {
+  color: var(--color2);
+}
+
+#sec-4 .bullet-item:hover span {
+  color: var(--color2);
+}
+
+#sec-4 .work {
+  position: relative;
+}
+
+#sec-4 .work h1 {
+  font-weight: 500;
+  color: var(--color1);
+  margin-bottom: 1.5rem;
+}
+
+#sec-4 .work p {
+  font-family: var(--Lato);
+  color: var(--color3);
+  line-height: 180%;
+}
+
+#sec-4 .content-item {
+  width: 20rem;
+  position: absolute;
+  top: -5.5rem;
+  left: -2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s ease;
+}
+
+#sec-4 .content-item.active {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+
+/* Section 4 */
+
+/* Section 5 */
+
+#sec-5 {
+  margin-top: 6rem;
+}
+
+#sec-5 .row:nth-child(2) {
+  margin-top: 3rem;
+}
+
+#sec-5 .title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sec-5 .title h2 {
+  line-height: 2.9rem;
+  width: 30rem;
+  text-align: center;
+}
+
+#sec-5 .title h2 span {
+  position: relative;
+  color: var(--colorWhite);
+}
+
+#sec-5 .title h2 span::before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+  width: 8rem;
+  height: 4rem;
+  background: var(--color2);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#sec-5 .col-lg-7 {
+  margin-top: 2rem;
+}
+
+#sec-5 .excess-group {
+  margin-bottom: 2.5rem;
+}
+
+#sec-5 .excess-item {
+  margin-bottom: 1rem;
+}
+
+#sec-5 .excess-item .iconify {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: var(--color2);
+}
+
+#sec-5 .excess-item span {
+  color: var(--color1);
+  font-weight: 600;
+}
+
+#sec-5 .certificates {
+  margin-bottom: 2rem;
+}
+
+#sec-5 .certificates h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--color1);
+}
+
+#sec-5 .certificate-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#sec-5 .certificate-item p {
+  font-weight: 500;
+  color: var(--color1);
+}
+
+#sec-5 .certificate-title {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+#sec-5 .certificate-item .certificate-deks {
+  margin-left: 1.8rem;
+}
+
+#sec-5 .certificate-title .circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--color2);
+}
+
+#sec-5 .link-all-certificates {
+  font-weight: 500;
+  color: var(--color2);
+  text-decoration: none;
+  padding-left: 0.1rem;
+  transition: 0.2s ease-in-out;
+}
+
+#sec-5 .link-all-certificates:hover {
+  color: var(--color1);
+}
+
+/* Section 5 */
+
+/* Section 6 */
+
+#sec-6 {
+  margin-top: 5rem;
+}
+
+#sec-6 .card {
+  border-radius: 12px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#sec-6 .card-title {
+  font-weight: 600;
+  color: var(--color1);
+}
+
+#sec-6 .tooltip-card {
+  width: max-content;
+  padding: 0.2rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 3px;
+  background: var(--color2);
+  color: var(--colorWhite);
+}
+
+#sec-6 .card-text {
+  font-family: var(--Lato);
+  color: var(--color3);
+  margin-bottom: 2rem;
+}
+
+#sec-6 .card a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color1);
+  transition: 0.2s ease-in;
+}
+
+#sec-6 .card .iconify {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  color: var(--color2);
+  transition: 0.2s ease-out;
+}
+
+#sec-6 .card a:hover {
+  color: var(--color2);
+}
+
+#sec-6 .card a:hover .iconify {
+  transform: translateX(5px);
+}
+
+/* Section 6 */
+
+/* Section 7 */
+
+#sec-7 {
+  margin-top: 7rem;
+}
+
+#sec-7 .col-lg-6 {
+  display: flex;
+  gap: 1rem;
+}
+
+#sec-7 .title h5 {
+  font-size: 1.5rem;
+}
+
+#sec-7 .testimoni {
+  height: 12rem;
+  margin-top: 5rem;
+}
+
+#sec-7 .testi {
+  position: relative;
+}
+
+#sec-7 .testi .people-name {
+  color: var(--color1);
+}
+
+#sec-7 .testi .testi-deks {
+  color: var(--color3);
+  line-height: 180%;
+}
+
+#sec-7 .testi img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5rem;
+}
+
+#sec-7 .swiper-pagination-bullet {
+  background-color: var(--color2);
+}
+
+/* Section 7 */
+
+/* Breakpoint */
+
+@media (max-width: 991px) {
+  /* ----- Section 1 ----- */
+
+  #sec-1 .img-area img {
+    width: 100%;
+  }
+
+  #sec-1 .img-area .card {
+    left: 3rem;
+    bottom: -3rem;
+    padding: 1rem;
+    width: 30%;
+  }
+
+  #sec-1 .col-lg-6:nth-child(2) {
+    margin-top: 3.4rem;
+  }
+
+  /* ----- Section 1 ----- */
+
+  /* ----- Section 2 ----- */
+
+  #sec-2 {
+    height: max-content;
+  }
+
+  #sec-2 .img-area {
+    margin-top: 5rem;
+  }
+
+  #sec-2 .img-area img {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  /* ----- Section 2 ----- */
+
+  #sec-4 .img-area {
+    margin-bottom: 2rem;
+  }
+
+  #sec-4 .img-area img {
+    width: 100%;
+  }
+
+  /* ----- Section 5 ----- */
+
+  #sec-5 .row:nth-child(2) {
+    margin-top: 1rem;
+  }
+
+  #sec-5 .title h2 span::before {
+    top: -0.2rem;
+    left: -0.5rem;
+    width: 7rem;
+    height: 3rem;
+  }
+
+  #sec-5 .title {
+    align-items: flex-start;
+  }
+
+  #sec-5 .title h2 {
+    width: inherit;
+    text-align: left;
+    line-height: 2.5rem;
+  }
+
+  #sec-5 .deks {
+    margin-bottom: 2rem;
+  }
+
+  /* ----- Section 5 ----- */
+
+  /* ----- Section 7 ----- */
+
+  #sec-7 .row .col-lg-6:nth-child(2) {
+    display: none;
+  }
+
+  /* ----- Section 7 ----- */
+}
+
+@media (max-width: 945px) {
+  /* ----- Section 3 ----- */
+
+  #sec-3 .service-group {
+    gap: 4rem;
+  }
+  /* ----- Section 3 ----- */
+}
+
+@media (max-width: 916px) {
+  #sec-5 .title h2 span::before {
+    left: -0.6rem;
+  }
+}
+
+@media (max-width: 886px) {
+  #sec-5 .title h2 span::before {
+    left: -0.8rem;
+  }
+}
+
+@media (max-width: 686px) {
+  #sec-5 .title h2 span::before {
+    left: -1rem;
+  }
+}
+
+@media (max-width: 849px) {
+  /* ----- Section 3 ----- */
+
+  #sec-3 .service-group {
+    gap: 2rem;
+  }
+
+  /* ----- Section 3 ----- */
+}
+
+@media (max-width: 817px) {
+  /* ----- Section 3 ----- */
+
+  #sec-3 .service-group {
+    gap: 0rem;
+    flex-wrap: wrap;
+  }
+
+  #sec-3 .service-item {
+    width: 100%;
+  }
+
+  /* ----- Section 3 ----- */
+}
+
+@media (max-width: 534px) {
+  /* ----- Section 1 ----- */
+
+  #sec-1 .img-area .card {
+    width: 40%;
+  }
+
+  /* ----- Section 1 ----- */
+
+  /* ----- Section 7 ----- */
+
+  #sec-7 .testimoni {
+    height: 14rem;
+  }
+
+  /* ----- Section 7 ----- */
+}
+
+@media (max-width: 515px) {
+  /* ----- Section 2 ----- */
+
+  #sec-2 .excess-group {
+    flex-direction: column;
+  }
+
+  #sec-2 .excess-item {
+    width: 100%;
+  }
+
+  /* ----- Section 2 ----- */
+}
+
+@media (max-width: 510px) {
+  /* ----- Section 1 ----- */
+
+  #sec-1 .excess-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  /* ----- Section 1 ----- */
+}
+
+@media (max-width: 500px) {
+  /* ----- Section 4 ----- */
+
+  #sec-4 .we-works {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #sec-4 .bullet-group {
+    display: flex;
+    gap: 1rem;
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 2px solid var(--color3);
+  }
+
+  #sec-4 .content-item {
+    top: 2rem;
+  }
+
+  /* ----- Section 4 ----- */
+
+  /* ----- Section 5 ----- */
+
+  #sec-5 {
+    margin-top: 18rem;
+  }
+
+  #sec-5 .title h2 span::before {
+    width: 6rem;
+    height: 3rem;
+  }
+
+  /* ----- Section 5 ----- */
+}
+
+@media (max-width: 469px) {
+  #sec-5 .title h2 span::before {
+    left: -0.6rem;
+  }
+}
+
+@media (max-width: 435px) {
+  /* ----- Section 3 ----- */
+
+  #sec-3 .service-item .title span {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--color1);
+    white-space: inherit;
+  }
+
+  /* ----- Section 3 ----- */
+}
+
+@media (max-width: 422px) {
+  /* ----- Section 7 ----- */
+
+  #sec-7 .testimoni {
+    height: 20rem;
+  }
+
+  #sec-7 .col-lg-6 {
+    flex-direction: column;
+  }
+
+  /* ----- Section 7 ----- */
+}
+
+@media (max-width: 411px) {
+  /* ----- Section 1 ----- */
+
+  #sec-1 .img-area .card {
+    left: 2rem;
+    width: 9rem;
+    height: 10rem;
+  }
+
+  #sec-1 .img-area .card h3 {
+    font-size: 3rem;
+  }
+
+  #sec-1 .img-area .card h4 {
+    font-size: 0.9rem;
+  }
+
+  /* ----- Section 1 ----- */
+}
+
+@media (max-width: 373px) {
+  /* ----- Section 4 ----- */
+
+  #sec-4 .content-item {
+    width: 17rem;
+  }
+
+  /* ----- Section 4 ----- */
+}
+
+@media (max-width: 365px) {
+  /* ----- Section 7 ----- */
+
+  #sec-7 .testimoni {
+    height: 22rem;
+  }
+
+  /* ----- Section 7 ----- */
+}
+
+@media (max-width: 320px) {
+  .carousel-header .content {
+    margin-top: 5rem;
+  }
+}

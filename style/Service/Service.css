@@ -1,0 +1,85 @@
+#service {
+  margin-top: 6rem;
+}
+
+#service .bussinees-activities {
+  margin-top: 3rem;
+}
+
+#service .bussiness-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#service .bussiness-title,
+#service .bussiness-details-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#service .bussiness-title h4 {
+  font-weight: 600;
+  color: var(--color1);
+  margin: 0;
+}
+
+#service .bussiness-title .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--color1);
+  color: var(--colorWhite);
+  font-weight: 600;
+}
+
+#service .bussiness-details {
+  margin-top: 1rem;
+}
+
+#service .bussiness-details .detail-info {
+  font-weight: 500;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+  padding-left: 0.7rem;
+  color: var(--color1);
+}
+
+#service .bussiness-details-item {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+#service .bussiness-details-item .circle {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  background: var(--color2);
+}
+
+#service .bussiness-details-item {
+  font-weight: 500;
+  color: var(--color1);
+}
+
+@media (max-width: 991px) {
+  #service .bussiness-details-item p {
+    flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  #service .bussinees-activities .bussiness-wrapper:nth-child(1) {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  /* #service .bussiness-details-item {
+    align-items: flex-start;
+  } */
+}
