@@ -17,13 +17,30 @@
 }
 
 #certificates .certificate-deks h3 {
+  width: max-content;
+  border-radius: 0.5rem;
+  background-color: var(--color2);
+  color: var(--colorWhite);
+  padding: 1rem;
   font-weight: 600;
-  color: var(--color1);
 }
 
 #certificates .certificate-deks {
   flex: 1;
 }
+
+#certificates .deks {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color1);
+  box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#certificates .deks p{
+  color: var(--colorWhite);
+}
+
+
 
 @media (max-width: 991px) {
   #certificates {

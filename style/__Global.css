@@ -92,11 +92,13 @@ main {
   .title h5 {
     font-size: 1rem;
   }
-}
 
-@media (max-width: 360px) {
   .title h2 {
     font-size: 1.5rem;
+  }
+
+  #bar-info .tooltop {
+    width: 90%;
   }
 }
 

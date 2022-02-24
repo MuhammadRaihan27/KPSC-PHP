@@ -8,6 +8,7 @@
 @import url("./Home/Home.css");
 @import url("./About/About.css");
 @import url("./Service/Service.css");
+@import url("./Direction/BoardDirection.css");
 @import url("./Certifitaces/Certificates.css");
 
 * {
@@ -19,8 +20,4 @@
 
 p {
   margin: 0;
-}
-
-body {
-  /* height: 1000rem; */
 }

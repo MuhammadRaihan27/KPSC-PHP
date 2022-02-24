@@ -69,7 +69,7 @@
               <img src="./assets/img/contact/circle.svg" alt="" />
             </div>
             <div class="col-lg-7">
-              <form action="">
+              <form action="HandleContact.php" method="POST">
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-floating mb-3">
@@ -112,10 +112,10 @@
                   <div class="col-lg-6">
                     <div class="form-floating mb-3">
                       <input
-                        type="email"
+                        type="text"
                         class="form-control"
                         id="address"
-                        placeholder="name@example.com"
+                        placeholder="JL Taman Alamanda 18 No 29"
                         name="address"
                       />
                       <label for="address"> Address</label>
@@ -127,20 +127,21 @@
                     <textarea
                       class="form-control"
                       placeholder="Leave a comment here"
-                      id="floatingTextarea2"
+                      id="pesan"
+                      name="pesan"
                     ></textarea>
-                    <label for="floatingTextarea2" id="cobs">Comments</label>
+                    <label for="pesan" class="px-4">Comments</label>
                   </div>
                 </div>
                 <div class="button">
-                  <button type="submit" name="whastup">
+                  <button type="submit" name="whatsapp">
                     Whatsapp
                     <span
                       class="iconify"
                       data-icon="ph:whatsapp-logo-fill"
                     ></span>
                   </button>
-                  <button type="submit" name="email">
+                  <button type="submit" name="Email">
                     Gmail
                     <span
                       class="iconify"
