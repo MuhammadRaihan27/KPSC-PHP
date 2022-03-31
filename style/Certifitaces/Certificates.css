@@ -36,11 +36,9 @@
   box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-#certificates .deks p{
+#certificates .deks p {
   color: var(--colorWhite);
 }
-
-
 
 @media (max-width: 991px) {
   #certificates {
@@ -64,5 +62,11 @@
 @media (max-width: 581px) {
   #certificates .certificate-img img {
     width: 60%;
+  }
+}
+
+@media (max-width: 420px) {
+  #certificates .certificate-deks h3 {
+    width: 100%;
   }
 }

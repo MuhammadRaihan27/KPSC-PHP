@@ -10,6 +10,8 @@
 @import url("./Service/Service.css");
 @import url("./Direction/BoardDirection.css");
 @import url("./Certifitaces/Certificates.css");
+@import url("./Service/plantservice.css");
+@import url("./Service/workshop.css");
 
 * {
   margin: 0;

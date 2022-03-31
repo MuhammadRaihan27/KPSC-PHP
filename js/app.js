@@ -73,3 +73,5 @@ if ((window.Location.href = "index.html")) {
     btnBullet2.classList.remove("active");
   });
 }
+
+

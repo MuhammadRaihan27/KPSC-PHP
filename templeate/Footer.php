@@ -88,16 +88,21 @@
   </div>
 </footer>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <!-- Bootstrap CSS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+<!-- Light Box -->
+<script src="../js/lightbox.js"></script>
+
 <!-- Iconify -->
 <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/app.js"></script>
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 
 </script>
 </body>

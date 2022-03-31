@@ -42,5 +42,21 @@
       Heading.textContent = "Board Of Directors";
       Subtitle.textContent = "> Board Of Directors";
       break;
+    case "<?= BASEURL; ?>plantService.php":
+      Heading.textContent = "Plant Service";
+      Subtitle.textContent = "> Plant Service";
+      break;
+    case "<?= BASEURL; ?>workshop.php":
+      Heading.textContent = "Workshop";
+      Subtitle.textContent = "> Workshop";
+      break;
+    case "<?= BASEURL; ?>construction.php":
+      Heading.textContent = "Construction";
+      Subtitle.textContent = "> Construction";
+      break;
+    case "<?= BASEURL; ?>project.php":
+      Heading.textContent = "Project";
+      Subtitle.textContent = "> Project";
+      break;
   }
 </script>

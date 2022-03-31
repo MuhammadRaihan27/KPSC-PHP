@@ -1,0 +1,37 @@
+#workshop {
+  margin-top: 6rem;
+}
+
+#workshop .img-area{
+ display: flex;
+ justify-content: flex-end;
+}
+
+#workshop .img-galery {
+    margin-top: 10rem;
+}
+
+#workshop .img {
+    width: 30rem;
+}
+
+#workshop .img-item {
+    width: 100%;
+}
+
+#workshop .img-area img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+#workshop .img-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#workshop .img-group img {
+    width: 100%;
+    border-radius: 1rem;
+}
+

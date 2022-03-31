@@ -16,8 +16,13 @@
   <!-- Swiper JS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>style/app.css" />
+  <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/style/app.css" />
+
+
+  </link>
 </head>
 
 <body>
@@ -36,26 +41,82 @@
           <li class="nav-item">
             <a href="<?= BASEURL; ?>" class="Home active" aria-current="page">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-item-about">
             <a href="about.php" class="About">About
               <span class="iconify" data-icon="dashicons:arrow-down-alt2"></span>
             </a>
             <ul class="dropdown">
-              <li><a href="<?= BASEURL; ?>boardDirectors.php">Board Of Directors</a></li>
               <li><a href="certificates.php">Certificates</a></li>
             </ul>
           </li>
-          <li class="nav-item">
+
+          <!----- Mobile Dropdown  ----->
+
+          <div class="accordion" id="mobileDropdown">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  About
+                  <span class="iconify" data-icon="dashicons:arrow-down-alt2" style="color: white;"></span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#mobileDropdown">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="about.php">About Company</a>
+                    </li>
+                    <li>
+                      <a href="certificates.php">Certificates</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Service
+                  <span class="iconify" data-icon="dashicons:arrow-down-alt2" style="color: white;"></span>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#mobileDropdown">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="plantService.php">Plant Service</a></li>
+                    <li><a href="construction.php">Constuction</a></li>
+                    <li><a href="workshop.php">Workshop</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#mobileDropdown">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+          <!----- Mobile Dropdown  ----->
+
+          <li class="nav-item nav-item-service">
             <a href="service.php" class="Service">Service
               <span class="iconify" data-icon="dashicons:arrow-down-alt2"></span>
             </a>
             <ul class="dropdown">
-              <li><a href="">Operating Maintenance</a></li>
-              <li><a href="">Constuction</a></li>
-              <li><a href="">Workshop</a></li>
+              <li><a href="plantService.php">Plant Service</a></li>
+              <li><a href="construction.php">Constuction</a></li>
+              <li><a href="workshop.php">Workshop</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a href="" class="Project">Project</a></li>
+          <li class="nav-item"><a href="project.php" class="Project">Project</a></li>
           <li class="nav-item"><a href="contact.php" class="Contact">Contact</a></li>
 
           </li>

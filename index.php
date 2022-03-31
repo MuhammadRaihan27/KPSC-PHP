@@ -289,7 +289,7 @@
 
   <!-- Section 5 -->
 
-  <div id="sec-5">
+  <section id="sec-5">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -361,13 +361,13 @@
         </div>
       </div>
     </div>
-  </div>
+              </section>
 
   <!-- Section 5 -->
 
   <!-- Section 6 -->
 
-  <div id="sec-6">
+  <section id="sec-6">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -476,7 +476,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Section 6 -->
 
